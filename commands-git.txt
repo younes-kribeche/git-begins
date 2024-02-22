@@ -2,5 +2,12 @@ git remote add origin https://github.com/younes-kribeche/git-begins.git
 git branch -M main
 git push -u origin main
 
-git branch <branchname>
-git checkout -b <branchname>
+Mettre à jour un fichier:
+1.git add <nom fichier> 
+2.git commit -m "message descriptif"
+3.git push
+
+Créer une branche:
+1.git checkout -b <nom branche>
+2.git commit -m "message descriptif"
+3.git merge <nom branche>
